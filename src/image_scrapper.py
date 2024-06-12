@@ -8,9 +8,9 @@ from datetime import datetime, timezone
 
 
 # Configuration
-api_id = '26622716'
-api_hash = 'fd4274717bfcacf787cc15b9b51f1c76'
-phone = '+251969107893'  # Corrected: Phone number must be a string with quotes
+api_id = '######'
+api_hash = '#######'
+phone = '##########'  # Corrected: Phone number must be a string with quotes
 
 
 # Load environment variables
