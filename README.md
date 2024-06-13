@@ -1,12 +1,15 @@
 # Ethiopian Medical Business Data Warehouse
 
-## Overview
+## Project Summary
+This project involves building a data warehouse to store data on Ethiopian medical businesses scraped from Telegram channels. The project includes developing data scraping and collection pipelines, data cleaning and transformation pipelines, implementing object detection using YOLO, and designing and implementing the data warehouse. The objective is to centralize and analyze data to gain valuable insights, leading to better decision-making.
 
-This project involves building a data warehouse to store and analyze data on Ethiopian medical businesses scraped from Telegram channels. The project includes developing a data scraping and collection pipeline, cleaning and transforming the data, integrating object detection using YOLO, and designing and implementing the data warehouse.
+## Overview
+The data warehouse aims to enhance data analysis by centralizing data, allowing comprehensive analyses to identify trends, patterns, and correlations in Ethiopian medical businesses. The project implements ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) frameworks to ensure data is clean, consistent, and ready for analysis.
 
 ## Table of Contents
-
+- [Introduction](#Introduction)
 - [Business Need](#business-need)
+- [Objective](#Objective)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
@@ -18,9 +21,21 @@ This project involves building a data warehouse to store and analyze data on Eth
 - [Competency Mapping](#competency-mapping)
 - [References](#references)
 
+## Introduction
+Kara Solutions, a leading data science company, has tasked us with building a robust and scalable data warehouse to store data scraped from Telegram channels related to Ethiopian medical businesses. The data warehouse will enable the team to perform comprehensive analyses, identify trends, and gain actionable insights.
+
 ## Business Need
 
 Kara Solutions, a leading data science company, requires a robust and scalable data warehouse to store and analyze data on Ethiopian medical businesses. The centralized data storage allows comprehensive analysis to uncover valuable insights, enabling better decision-making and efficient querying and reporting.
+
+## Objective
+The objective of this project is to:
+
+Develop data scraping and collection pipelines.
+Develop data cleaning and transformation pipelines.
+Implement object detection using YOLO.
+Design and implement a data warehouse.
+Integrate and enrich data for comprehensive analysis.
 
 ## Project Structure
 
@@ -60,6 +75,8 @@ my_project/
 
 3. **Set up the database:**
     Configure your database connection in `database.py`.
+
+## Tasks and Steps
 
 ## Data Scraping and Collection
 
