@@ -31,11 +31,11 @@ Kara Solutions, a leading data science company, requires a robust and scalable d
 ## Objective
 The objective of this project is to:
 
-Develop data scraping and collection pipelines.
-Develop data cleaning and transformation pipelines.
-Implement object detection using YOLO.
-Design and implement a data warehouse.
-Integrate and enrich data for comprehensive analysis.
+- Develop data scraping and collection pipelines.
+- Develop data cleaning and transformation pipelines.
+- Implement object detection using YOLO.
+- Design and implement a data warehouse.
+- Integrate and enrich data for comprehensive analysis.
 
 ## Project Structure
 
