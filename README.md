@@ -40,10 +40,33 @@ The objective of this project is to:
 ## Project Structure
 
 ```plaintext
-my_project/
-├── main.py
-├── database.py
-├── models.py
+```plaintext
+Ethiopian_medical_business_datawarehouse/
+├── my_project/
+│   ├── models/
+│   │   └── my_model.sql
+│   ├── my_project.yml
+│   ├── profiles.yml
+│   └── ...
+├── src/
+│     ├── cleaning_raw_data.py
+│     ├── main.py
+│     ├── image_to csv_file.ipynb
+│     ├── store_raw_data_sql.py //database.py
+│     ├── image_scrapper.py 
+├── requirements.txt
+└── logs/
+│    └── dbt.log
+│    └── data_cleaning.log
+│
+├── telegram_data_scrapper/
+├──   ├── build-dataset.py
+│     ├── main.py
+│     ├── channels-to-network.py
+│     ├── output/
+│     │       └── data/...           
+│     
+├── 
 ├── schemas.py
 └── crud.py
 ```
