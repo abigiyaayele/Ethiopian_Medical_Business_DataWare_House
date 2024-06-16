@@ -9,19 +9,27 @@
 
 {{ config(materialized='table') }}
 
-with source_data as (
+    -- Example transformation model
+with raw_data as (
 
-    select 1 as id
+    select * from {{ ref('cheMed') }}
     union all
-    select null as id
+    select * from {{ ref('Doctorset') }}
+    union all
+    select * from {{ ref('EAHCI') }}
+    union all
+    select * from {{ ref('lobelia4cosmetics') }}
+    union all
+    select * from {{ ref('yetenaweg') }}
 
 )
 
-select *
-from source_data
+select 
+    signature,
+    channel_id,
+    channel_name,
+    msg_id,
+    message,
+    date	
+from raw_data
 
-/*
-    Uncomment the line below to remove records with null `id` values
-*/
-
--- where id is not null
